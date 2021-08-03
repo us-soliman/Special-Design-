@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap">
+  <link rel="stylesheet" href="fonts/style.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Special Design</title>
+</head>
+
+<body>
+
+  <!-- Start landing-Page ------------------>
+  <section class="main">
+    <!-- Start Navbar ------------------------->
+    <nav>
+      <div class="logo">Logo</div>
+      <ul class="">
+        <li><a href="#" data-section=".main">Home</a></li>
+        <li ><a href="#" data-section=".about">About</a></li>
+        <li ><a href="#" data-section=".gallery">Gallery</a></li>
+        <li ><a href="#" data-section=".testimonials">Testimonials</a></li>
+      </ul>
+      <button class="toggle-menu" onclick="this.classList.toggle('close')">
+        <span></span>
+      </button>
+    </nav>
+    <!-- End Navbar ------------------------->
+    <article>
+      <div class="background">
+        <h1>K0</h1>
+      </div>
+      <div class="containt">
+        <div class="buttons">
+          <span class="previous" onclick="previous();">previous</span>
+          <span class="next" onclick="next();">next</span>
+        </div>
+        <ul class="slider">
+          <li class="info active">
+            <h3>make something 0 </h3>
+            <h1>motivation</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odio et beatae amet nemo, quisquam
+              ipsa quidem ullam aut. Voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              repellat!
+              ipsa quidem ullam aut. Voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              repellat!</p>
+          </li>
+          <li class="info">
+            <h3>looking for 1 </h3>
+            <h1>inspiration</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odio et beatae amet nemo, quisquam
+              ipsa quidem ullam aut. Voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              repellat!
+              ipsa quidem ullam aut. Voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              repellat!</p>
+          </li>
+          <li class="info">
+            <h3>let's start 2 </h3>
+            <h1>the show</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam odio et beatae amet nemo, quisquam
+              ipsa quidem ullam aut. Voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              repellat!
+              ipsa quidem ullam aut. Voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              repellat!</p>
+          </li>
+        </ul>
+      </div>
+
+    </article>
+  </section>
+  <!-- End landing-Page ------------------->
+
+
+  <!-- Start About us ------------------->
+  <section class="about">
+    <article class="box1">
+      <h1>About Us</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis eveniet quia quibusdam reiciendis aperiam
+        voluptatum natus iusto dolore vitae beatae!
+        quibusdam reiciendis aperiam voluptatum natus iusto dolore vitae beatae!
+      </p>
+    </article>
+    <article class="box2">
+      <img src="images/undraw_feeling_proud_qne1.svg" alt="">
+    </article>
+  </section>
+  <!-- End About us ------------------->
+
+  <!-- Start Skills  ------------------->
+  <section class="skills">
+    <h1>Our Skills</h1>
+    <div class="skillsBox">
+      <div class="one">
+        <span>HTML</span>
+        <span class="progress" data-progress="50%"></span>
+      </div>
+
+      <div class="two">
+        <span>CSS</span>
+        <span class="progress" data-progress="70%"></span>
+      </div>
+
+      <div class="three">
+        <span>Javascript</span>
+        <span class="progress" data-progress="30%"></span>
+      </div>
+
+      <div class="four">
+        <span>Python</span>
+        <span class="progress" data-progress="60%"></span>
+      </div>
+    </div>
+  </section>
+  <!-- End Skills  ---------------------->
+
+  <!-- Start Gallery  --------------------->
+  <section class="gallery">
+    <h1>Our Gallery</h1>
+    <div class="photos-box">
+      <img src="images/a.jpg" alt="">
+      <img class="" src="images/b.jpg" alt="">
+      <img src="images/c.jpg" alt="The World">
+      <img src="images/d.jpg" alt="">
+      <img src="images/e.jpg" alt="The Kids">
+      <img src="images/f.jpg" alt="">
+      <img src="images/g.jpg" alt="">
+      <img src="images/h.jpg" alt="">
+      <img src="images/i.jpg" alt="">
+      <img src="images/j.jpg" alt="">
+    </div>
+
+  </section>
+  <!-- start pop up ------------------->
+  <div class="pop-up-container">
+    <h2></h2>
+    <div class="pop-up-box">
+      <button class="close"></button>
+      <img src="" alt="">
+    </div>
+  </div>
+  <!-- End pop up ------------------->
+
+  <!-- End Gallery  --------------------->
+
+
+  <!-- Start Timeline  --------------------->
+  <section class="timeline">
+    <h1>Timeline</h1>
+    <div class="container">
+      <h1 class="year">2010</h1>
+
+      <div class="box-left">
+        <div class="logo">
+          <i class="icon-home"></i>
+        </div>
+        <div class="content">
+          <h2>Training</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eos ad? Expedita fugiat modi odio
+            fuga eveniet quos accusantium, reiciendis debitis dolorem excepturi harum dignissimos labore veritatis
+            dolores adipisci at.</p>
+        </div>
+      </div>
+
+      <div class="box-right">
+        <div class="logo">
+          <i class="icon-download3"></i>
+        </div>
+        <div class="content">
+          <h2>At Home</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eos ad? Expedita fugiat modi odio
+            fuga eveniet quos accusantium, reiciendis debitis dolorem excepturi harum dignissimos labore veritatis
+            dolores adipisci at.</p>
+        </div>
+      </div>
+      <h1 class="year">2012</h1>
+      <div class="box-left">
+        <div class="logo">
+          <i class="icon-books"></i>
+        </div>
+        <div class="content">
+          <h2>Backgrounds</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, eos ad? Expedita fugiat modi odio
+            fuga eveniet quos accusantium, reiciendis debitis dolorem excepturi harum dignissimos labore veritatis
+            dolores adipisci at.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Timeline  ----------------------->
+
+  <!-- Start Our Features  ----------------------->
+  <section class="features">
+    <h1>Our Features</h1>
+    <div class="container">
+
+      <div class="box-features">
+        <div class="circle"><i class="icon-area-chart"></i></div>
+        <h2>Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum aliquid deserunt veritatis quis
+          reiciendis similique atque qui animi nulla harum nihil eos odit</p>
+      </div>
+
+      <div class="box-features">
+        <div class="circle"><i class="icon-library"></i></div>
+        <h2>Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum aliquid deserunt veritatis quis
+          reiciendis similique atque qui animi nulla harum nihil eos odit</p>
+      </div>
+
+      <div class="box-features">
+        <div class="circle"><i class="icon-spoon-knife"></i></div>
+        <h2>Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum aliquid deserunt veritatis quis
+          reiciendis similique atque qui animi nulla harum nihil eos odit</p>
+      </div>
+
+      <div class="box-features">
+        <div class="circle"><i class="icon-trophy"></i></div>
+        <h2>Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum aliquid deserunt veritatis quis
+          reiciendis similique atque qui animi nulla harum nihil eos odit</p>
+      </div>
+
+      <div class="box-features">
+        <div class="circle"><i class="icon-lab"></i></div>
+        <h2>Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum aliquid deserunt veritatis quis
+          reiciendis similique atque qui animi nulla harum nihil eos odit</p>
+      </div>
+
+      <div class="box-features">
+        <div class="circle"><i class="icon-location"></i></div>
+        <h2>Development</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum earum aliquid deserunt veritatis quis
+          reiciendis similique atque qui animi nulla harum nihil eos odit</p>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Our Features  ----------------------->
+
+  <!-- Start Our Testimonials  ----------------------->
+  <section class="testimonials">
+
+    <h1>Our Testimonials</h1>
+
+    <div class="container">
+
+      <div class="box-person">
+        <p>Architecto enim unde rem distinctio placeat pariatur natus maiores quibusdam tenetur numquam, voluptates
+          eaque doloremque nam rerum. Odio quibusdam fugit facere placeat?</p>
+        <div class="info">
+          <i class=" icon-user-circle"></i>
+          <h2 class="name">mark lorgy</h2>
+          <p>ECO At Company</p>
+        </div>
+      </div>
+
+      <div class="box-person">
+        <p>Architecto enim unde rem distinctio placeat pariatur natus maiores quibusdam tenetur numquam, voluptates
+          eaque doloremque nam rerum. Odio quibusdam fugit facere placeat?</p>
+        <div class="info">
+          <i class=" icon-user-circle"></i>
+          <h2 class="name">Tom kraws</h2>
+          <p>ECO At Company</p>
+        </div>
+      </div>
+
+      <div class="box-person">
+        <p>Architecto enim unde rem distinctio placeat pariatur natus maiores quibusdam tenetur numquam, voluptates
+          eaque doloremque nam rerum. Odio quibusdam fugit facere placeat?</p>
+        <div class="info">
+          <i class=" icon-user-circle"></i>
+          <h2 class="name">monika alfrid</h2>
+          <p>ECO At Company</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Our Testimonials  ------------------------->
+
+  <!-- Start Contact Us  ------------------------->
+  <section class="contact-us">
+    <div class="overlay"></div>
+    <h1>Contact us</h1>
+
+    <div class="container">
+
+      <div class="info">
+        <h3>contact info</h3>
+        <div>
+          <i class="icon-location"></i>
+          <p>Lorem ipsum dolor 10 St sit amet consectetur.</p>
+        </div>
+        <div>
+          <i class="icon-whatsapp"></i>
+          <p>03202343432 / 0102320388</p>
+        </div>
+        <div>
+          <i class="icon-facebook"></i>
+          <p>World today</p>
+        </div>
+      </div>
+
+      <div class="contact">
+        <form action="">
+          <input type="text" lang="100"  required placeholder="first Name">
+          <input type="text" lang="100" required  placeholder="last Name">
+          <input type="text" lang="100" required placeholder="E-mail Address">
+          <input type="text" lang="100" required placeholder="Mobile Number">
+          <textarea name="message" id="" cols="60" rows="5" placeholder="write your Message here ..."></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
+
+    </div>
+  </section>
+  <!-- End Contact Us  --------------------------->
+  
+  
+  <!-- Start  bullets   ------------------------->
+  <div class="bullets">
+    
+    <div class="bullet active" data-section=".about">
+      <span>About</span>
+    </div>
+    
+    <div class="bullet" data-section=".skills">
+      <span>Skills</span>
+    </div>
+    
+    <div class="bullet" data-section=".gallery">
+      <span>Gallery</span>
+    </div>
+    <div class="bullet" data-section=".timeline">
+      <span>Timeline</span>
+    </div>
+    
+    <div class="bullet" data-section=".features">
+      <span>Features</span>
+    </div>
+    
+    <div class="bullet" data-section=".testimonials">
+      <span>Testimonials</span>
+    </div>
+    
+  </div>
+  <!-- End  bullets   ------------------------->
+
+  <!-- Start aside Bar ------------------->
+  <div class="layer"></div>
+  <aside>
+    <div class="icon"><i class="icon-cog1"></i></div>
+    <div class="option">
+      <span class="active" data-color="#00adb5"></span>
+      <span data-color="#ed4e6c"></span>
+      <span data-color="#e5e744"></span>
+      <span data-color="#5a347e"></span>
+    </div>
+    <div class="option-setting random-img">
+      <h4>Random Backgrounds</h4>
+      <span class="yes active">Yes</span>
+      <span class="no">NO</span>
+    </div>
+    <div class="option-setting show-bullets">
+      <h4>Show Bullets</h4>
+      <span class="yes active">Yes</span>
+      <span class="no">NO</span>
+    </div>
+    <button class="reset-options">reset Options</button>
+  </aside>
+  <!-- End aside Bar ------------------->
+  <hr>
+  <footer>
+  <h3>osama Soliman &copy; 2021 All Right Reserved</h3>
+</footer>
+
+  <script src="js/app.js"></script>
+</body>
+
+</html>
